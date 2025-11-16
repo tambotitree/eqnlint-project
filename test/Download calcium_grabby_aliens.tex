@@ -1,0 +1,66 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, graphicx}
+
+\title{Calcium as a Prerequisite for Grabby Aliens: Earliest Start Times and Observable Horizons}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+We propose that calcium availability is a gating factor for the emergence of fast-evolving, predator-prey-driven biospheres capable of producing technological civilizations.
+Without calcium, muscle contraction, rapid nerve impulses, skeletal mineralization, and shell formation are significantly hindered.
+On Earth, calcium carbonate and calcium phosphate have enabled both defensive and offensive arms races, accelerating evolution.
+
+\section{Calcium Threshold Epoch}
+We define the calcium threshold epoch $t_{\mathrm{Ca}}^\star$ as the first cosmic time when typical star-forming regions achieve a calcium abundance $Z_{\mathrm{Ca}}$ exceeding a critical value $Z_{\mathrm{Ca}}^{\mathrm{crit}}$ sufficient for rapid Ca$^{2+}$-mediated signaling and biomineralization.
+
+\subsection{Earliest Technological Time}
+If planets must form after the calcium pulse to trap Ca into biospheres, then the earliest plausible onset of technology is
+\begin{equation}
+t_{\mathrm{tech}}^{\min} = t_{\mathrm{Ca}}^\star + \tau_{\mathrm{mix}} + \tau_{\mathrm{planet}} + \tau_{\mathrm{bio+intel}},
+\end{equation}
+where:
+\begin{itemize}
+\item $\tau_{\mathrm{mix}}$: Delay for ISM mixing and incorporation into disks ($\sim0.2$ Gyr),
+\item $\tau_{\mathrm{planet}}$: Time from disk formation to stable rocky planets with oceans ($\sim0.3$ Gyr),
+\item $\tau_{\mathrm{bio+intel}}$: Time from planet formation to technological intelligence ($\sim4.5$ Gyr, Earth-like).
+\end{itemize}
+
+\subsection{Observable Radii}
+Let $t_0$ denote the present cosmic time ($13.8$ Gyr), $v=\beta c$ the expansion speed.
+The maximum electromagnetic horizon for earliest civil signals is
+\begin{equation}
+R_{\mathrm{light}}^{\max} = c\,(t_0 - t_{\mathrm{tech}}^{\min}),
+\end{equation}
+and the maximum expansion-front radius is
+\begin{equation}
+R_{\mathrm{exp}}^{\max} = \beta c\,(t_0 - t_{\mathrm{tech}}^{\min}).
+\end{equation}
+
+\section{Results}
+For baseline parameters ($\tau_{\mathrm{mix}}=0.2$, $\tau_{\mathrm{planet}}=0.3$, $\tau_{\mathrm{bio+intel}}=4.5$), we sweep $t_{\mathrm{Ca}}^\star$:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$t_{\mathrm{Ca}}^\star$ (Gyr) & $t_{\mathrm{tech}}^{\min}$ (Gyr) & $R_{\mathrm{light}}^{\max}$ (Gly) \\
+\hline
+0.8 & 5.8 & 8.0 \\
+1.0 & 6.0 & 7.8 \\
+1.5 & 6.5 & 7.3 \\
+2.0 & 7.0 & 6.8 \\
+3.0 & 8.0 & 5.8 \\
+\hline
+\end{tabular}
+\end{center}
+
+The most optimistic case ($t_{\mathrm{Ca}}^\star=0.8$) yields $t_{\mathrm{tech}}^{\min} \approx 5.8$ Gyr and a maximum light sphere of $\approx 8.0$ Gly.
+
+\section{Implications for Grabby Aliens}
+In the Grabby Aliens model, this calcium gating shifts the birth-time distribution for civilizations by adding a hard lower bound at $t_{\mathrm{tech}}^{\min}$.
+Later calcium availability reduces both the observable light horizon and expansion horizon, potentially decreasing the number of detectable domains.
+
+\end{document}
